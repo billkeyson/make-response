@@ -10,7 +10,7 @@ exports.standard_response = (status, code, message, data)=>{
       throw new Error('data is either null , an array or an object')
 }
 
-exports.status_response = (status, code , message, data)=>{
+exports.error_response = (status, code , message, data)=>{
     if (typeof data === 'object' || Array.isArray(data) || data === null || data === undefined) {
         return JSON.stringify(
           {
