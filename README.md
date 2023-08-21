@@ -46,5 +46,16 @@ The Standard Response format provides a reliable means of communicating the resu
     }
     ```
 
+These examples showcase the versatility of JSON response structures, illustrating how they can effectively convey different types of information and outcomes in API interactions.
+
+## Example Usage
+
+```javascript
+const { standard_response, error_response } = require('make-response');
+
+// You can now use the standard_response and error_response functions to generate response objects.
+// Example:
+const successResponse = standard_response("Request was successful.", { /* Actual response data */ });
+const errorResponse = error_response("An error occurred while processing the request.", "123", { /* Additional error details */ });
 
 These examples showcase the versatility of JSON response structures, illustrating how they can effectively convey different types of information and outcomes in API interactions.
