@@ -25,7 +25,7 @@ The Standard Response format provides a reliable means of communicating the resu
         "status": "error",
         "message": "An error occurred while processing the request.",
         "error_code": "123",
-        "details": {
+        "data": {
             // Additional error details
         }
     }
@@ -46,27 +46,5 @@ The Standard Response format provides a reliable means of communicating the resu
     }
     ```
 
-4. **Validation Error Response:**
-    ```json
-    {
-        "status": "error",
-        "message": "Input validation failed.",
-        "errors": {
-            "field_name": ["Error message 1", "Error message 2"],
-            // Other fields and error messages
-        }
-    }
-    ```
-
-5. **Single Resource Response:**
-    ```json
-    {
-        "status": "success",
-        "message": "Request was successful.",
-        "data": {
-            // Single resource data
-        }
-    }
-    ```
 
 These examples showcase the versatility of JSON response structures, illustrating how they can effectively convey different types of information and outcomes in API interactions.
