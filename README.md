@@ -2,6 +2,14 @@
 
 JSON response structures are vital components in diverse API scenarios, serving as effective conduits for communication between client applications and servers. They enable streamlined information exchange and enhance the user experience.
 
+## Installation
+
+To use the "make-response" package in your project, you can install it via npm:
+
+```bash
+npm install make-response
+```
+
 ## Standard Response Format
 
 The Standard Response format provides a reliable means of communicating the results of API requests. It consistently conveys the success status of the request and allows for the inclusion of optional data payloads. This format ensures a common understanding of API interactions.

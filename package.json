@@ -1,6 +1,6 @@
 {
   "name": "make-response",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "JSON response structures play a pivotal role in various API contexts, facilitating effective communication between client applications and servers. The Standard Response format offers a consistent way to relay the outcome of API requests, conveying success status and optional data payloads. ",
   "main": "index.js",
   "files": [
